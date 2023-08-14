@@ -1,238 +1,309 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7FKS6VLE0">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
-        gtag('config', 'G-Z7FKS6VLE0');
-    </script>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-38106168-1']);
-        _gaq.push(['_trackPageview']);
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Rayan Barry</title>
-    <link rel="stylesheet" href="research.css" type="text/css" media="screen, projection" />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-    <!-- include Cycle plugin -->
-    <script type="text/javascript" src=http://malsup.github.io/jquery.cycle.all.js></script>
-    <script>
-        $(document).ready(function() {
-            $("#navbar a").mouseenter(function() {
-                $(this).attr('style',"color:gray");
-            });
-            $("#navbar a").mouseleave(function() {
-                $(this).attr('style',"color:black");
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#bottom .links a").mouseenter(function() {
-                $(this).attr('style',"color:gray");
-            });
-            $("#bottom .links a").mouseleave(function() {
-                $(this).attr('style',"color:black");
-            });
-        });
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.slide_show').cycle({
-                fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-                random: 1,
-                timeout: 5000
-            });
-        });
-    </script>
-</head>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<body>
-<div id="page">
-    <div id=colorbar></div>
-    <div id="navbar">
-        <a href="./index.htm"><span style="font-size: 32pt">Irvine Lab</span></a>
-        <h style="color: #fc3460">Research</h>
-        <a href="./bio">People</a>
-        <a href="./publications.htm">Publications</a>
-        <a href="./contact.htm">Contact</a>
-        <a href="./gallery.htm">Gallery</a>
+    <title>Resumé – Molly White</title>
+
+    <link rel="stylesheet" href="/assets/styles/base-styles.css"/>
+    <style>
+      
+    </style>
+
+    <meta property='og:site_name' content='Molly White'/>
+    <meta property="og:title" content="Resumé – Molly White"/>
+    <meta name="twitter:title" content="Resumé – Molly White"/>
+    
+      <meta name="description" content="Molly White&#39;s resumé"/>
+      <meta property="og:description" content="Molly White&#39;s resumé"/>
+      <meta name="twitter:description" content="Molly White&#39;s resumé"/>
+    
+    <meta property="og:image"
+      content="/assets/images/molly_illustration_social.png"/>
+    <meta name="twitter:image"
+      content="/assets/images/molly_illustration_social.png"/>
+    <meta property="og:image:alt"
+      content="An illustration of Molly sitting crosslegged with a laptop on her lap"/>
+    <meta name="twitter:image:alt"
+      content="An illustration of Molly sitting crosslegged with a laptop on her lap"/>
+    
+    
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:creator" content="@mollyxfff"/>
+    <meta name="twitter:creator:id" content="545445165"/>
+    <meta property="og:url" content="https://www.mollywhite.net/resume"/>
+    <link rel="canonical" href="https://www.mollywhite.net/resume"/>
+
+    <link rel="icon" href="/assets/images/icons/favicon.ico"/>
+    <link rel="icon" href="/assets/images/icons/favicon-16x16.png" sizes="16x16" type="image/png"/>
+    <link rel="icon" href="/assets/images/icons/favicon-32x32.png" sizes="32x32" type="image/png"/>
+    <link rel="apple-touch-icon" href="/assets/images/icons/apple-touch-icon.png" sizes="180x180"/>
+    <link rel="manifest" href="/site.webmanifest"/>
+    <link rel="me" href="https://hachyderm.io/@molly0xfff"/>
+    <meta name="theme-color" content="#161616"/>
+
+    
+  </head>
+
+  <body>
+    
+  <div class="page-container resume">
+    <nav role="nav">
+  <div class="logo-image">
+    <a href="https://www.mollywhite.net/">
+      <img src="/assets/images/molly.jpeg" alt="A photograph of Molly White sitting at a table in a video studio. She's
+      a white woman with long brown hair that's shaved on one side, she has brown eyes, and she's wearing a black and
+      white striped shirt and black blazer. There is a colorful cartoon background behind her. She's smiling and looking
+      at someone out of frame."/>
+    </a>
+  </div>
+  <button id="menu-toggle" class="menu-toggle">Menu</button>
+  <div id="nav-links" class="nav-links collapsed">
+    <a href="/">Home</a>
+    <ul>
+      <li class="nav-header">Work</li>
+      <li>
+        <a href="https://newsletter.mollywhite.net/">Newsletter</a>
+      </li>
+      <li>
+        <a href="https://web3isgoinggreat.com/">
+          <i>Web3 is Going Just Great</i>
+        </a>
+      </li>
+      <li>
+        <a href="https://blog.mollywhite.net/blockchain/">Blockchain essays</a>
+      </li>
+      <li>
+        <a href="/speaking">Speaking</a>
+      </li>
+      <li>
+        <a href="/press">Press</a>
+      </li>
+    </ul>
+    <ul>
+      <li class="nav-header">Other interests</li>
+      <li>
+        <a href="/reading">Reading lists</a>
+      </li>
+      <li>
+        <a href="/wikipedia-work">Wikipedia writing</a>
+      </li>
+      <li>
+        <a href="/projects">Software</a>
+      </li>
+      <li>
+        <a href="https://blog.mollywhite.net/">Blog</a>
+      </li>
+    </ul>
+    <ul>
+      <li class="nav-header">About</li>
+      <li>
+        <a href="/resume">Resumé</a>
+      </li>
+      <li>
+        <a href="/contact">Contact</a>
+      </li>
+      <li>
+        <a href="/verify">Identity</a>
+      </li>
+    </ul>
+    <ul>
+      <li class="nav-header">Social</li>
+      <li>
+        <a href="https://twitter.com/molly0xFFF">Twitter</a>
+      </li>
+      <li>
+        <a href="https://hachyderm.io/@molly0xfff">Mastodon</a>
+      </li>
+      <li>
+        <a href="/social">Everything else</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <main>
+      
+
+  <div class="resume-block">
+    <h2>Work</h2>
+    <div class="line-with-year">
+      <span>
+        <h3 class="h4">Harvard University Library Innovation Lab</h3>
+      </span>
+      <span class="year bold">November 2022–present</span>
     </div>
-    <div id=banner style="margin-top: 13%">
-        <div class=slide_show>
-<!--            <img src=./images/research-banner-vortex.jpg>-->
-<!--            <img src=./images/research-banner-knot.jpg>-->
-<!--            <img src=./images/research-banner-colloid.jpg>-->
-            <img style="width: 100%" src="./images/cover-chiral-fluid.jpg">
-        </div>
+    <div class="resume-sub-block section">
+      <span class="bold">Fellow</span>
+      <div class="resume-description">
+      Year-long fellowship to continue my research and work surrounding the cryptocurrency and blockchain industries, as
+      well as topics including online governance, digital identity, and the future of the web. Some of my work with the
+      LIL has included:
+      <ul>
+          <li>
+          "<a
+            href="https://hls.harvard.edu/events/web3-is-going-just-where-a-fireside-chat-with-molly-white-and-jonathan-zittrain/">
+            Web3 Is Going Just Where?</a>" fireside chat with Molly White and Jonathan Zittrain, January 2023
+        </li>
+          <li>"Challenges, opportunities, skepticism on Web3" conversation with Dr. Shlomit Wagman and Molly White at the
+          "Web3: What don't we know about it yet?" workshop at Harvard University, February 2023</li>
+          <li>"<a href="https://hlsbeyond.law.harvard.edu/events-2022-23/">Blockchain Solutions to Socio-Political
+            Problems: An Exploration of Current Issues in Web3</a>" seminar series, March–April 2023</li>
+        </ul>
+      </div>
     </div>
-    <div id="blocks">
-        <div class="title_lf"> Research Interests </div>
-        <div class="text">
-            I am a PhD student in Chemical Engineering, pursuing an MS in Math. I am interested in developing physics-based and machine learning models to advance our scientific understanding. <br />
-        </div>
-        <!---->
-        <div class="title_rf"> Projects </div>
-        <!---->
-        <div class="project_r">
-            <div class="text_box">
-                <div class="title_r"> Topological mechanical meta-materials</div>
-                <p>One of the grand challenges in the physical and engineering sciences is to understand and design
-                    materials and complex fluids with desirable  properties. We are investigating the role that topology
-                    and activity can play in meta-materials and complex fluids by designing and constructing topological
-                    mechanical meta-materials and active colloidal fluids. A recent breakthrough has been the construction
-                    of a gyroscopic meta-material and the observation of chiral edge states [1]. Surprisingly, amorphous
-                    structures can also support these waves [2] and pass through topological phase transitions [3]. </p>
-                <div class="refs">
-                    <a target="_blank" href='./papers/PNAS-2015-Nash-14495-500.pdf'>[1] L.M. Nash, et al., <i> PNAS </i> 112 <b>47</b>, 14495-15000 (2015)</a><br />
-                    <a target="_blank" href='https://www.nature.com/articles/s41567-017-0024-5'>[2] N. P. Mitchell et al., <i> Nature Physics </i><b>48</b>, 380–385 (2018)</a><br />
-                    <a target="_blank" href='https://journals.aps.org/prb/abstract/10.1103/PhysRevB.97.100302'>[3] N. P. Mitchell et al., <i> Physical Review B </i><b>97</b>, 100302(R) (2018)</a><br />
-                </div>
-            </div>
-            <div class="image_box">
-                <img src="./images/research-thumb-gyros.png">
-            </div>
-        </div>
-        <!---->
-        <div class="project_l">
-            <div class="text_box">
-                <div class="title_l"> Vortex Motion and Topological Fluid Mechanics</div>
-                <p>We study vortex dynamics in experiment using vortices in fluids as a model system. A recent advance [1]
-                    allows us to create vortices of controlled shape and topology which we image using a scanning tomography
-                    setup  in three dimensions at high speed (~10 GVoxels/second). Open questions include the role of vortex
-                    reconnections in dissipative flows, the extent of topological conservation laws in real fluids and
-                    general aspects of vortex dynamics.</p>
-                <div class="refs">
-                    <a target="_blank" href=http://www.nature.com/nphys/journal/vaop/ncurrent/full/nphys2560.html#> [1] D. Kleckner and W.T.M. Irvine, <i> Nature Physics</i> <b>9</b>, 253-258 (2013).  </a><br />
-                    <a target="_blank" href=./images/DFD2013_final.mp4>[2] D. Kleckner et al., <i> APS DFD Gallery of Fluid Motion </i> (2013). </a><br />
-                    <a target="_blank" href=http://www.pnas.org/content/111/43/15350>[3] M. Scheeler et al. <i>PNAS</i> 111 <b> 43</b>,  15350-15355 (2014).</a><br />
-                </div>
-            </div>
-            <div class="image_box">
-                <img src="./images/research-vortex.jpg">
-            </div>
-        </div>
-        <!---->
-        <div class="project_r" style="height: 475px">
-            <div class="text_box">
-                <div class="title_r"> Knotted Fields</div>
-                <p>While tying a shoelace into a knot is a relatively simple affair, tying a field, for example a magnetic
-                    field, into a knot is a different story: the entire space-filling field must be twisted everywhere to
-                    match the knot being tied at the core. This interplay between knots and and the space they live in lies
-                    at the heart of modern topology; beyond the world of mathematics, there is a growing realization that
-                    knots in space-filling fields are an essential part of physical processes spanning classical and quantum
-                    field theories, liquid crystals, electromagnetism, plasmas, and quantum and classical fluids. Linked and
-                    knotted structures in free space electromagnetic fields provide an opportunity to study a nontrivial
-                    topological structure in the setting of a linear field theory as well ad a means of potentially
-                    transferring knottedness to matter [1], [2], [3]. Taking this as a starting point we are elucidating the
-                    'rules' for the mathematical construction and dynamical evolution of knotted fields in general. </p>
-                <div class="refs">
-                    <a target="_blank" href='./papers/nphys1056.pdf'>[1] W.T.M. Irvine and D. Bouwmeester, <i> Nature Physics </i> <b> 4</b>, 716-720 (2008).</a><br />
-                    <a target="_blank" href="./papers/2010Irvine.pdf">[2] W.T.M. Irvine, <i> Journal of Physics A: Mathematical and Theoretical </i><b>43</b>, 385203 (2010).</a><br />
-                    <a target="_blank" href=./papers/PhysRevLett_111_150404.pdf> [3] H. Kedia et al., <i> Physical Review Letters </i> <b>111</b>, 150404 (2013). </a><br />
-                </div>
-            </div>
-            <div class="image_box">
-                <img src="./images/research-thumb-EM_knots.jpg">
-            </div>
-        </div>
-        <!---->
-        <div class="project_l">
-            <div class="text_box">
-                <div class="title_l"> Geometry, Topology, and Soft Matter</div>
-                <p>We study open questions in equilibrium and non-equilibrium many-body physics, often with an emphasis on
-                    problems in which geometry and topology provide the key to understanding the physical phenomena we
-                    observe. Using colloidal particles, (both spherical and shaped), fluids and foams, we study the
-                    self-assembly and properties of ordered and disordered phases, while developing methods to control them.
-                    Examples include studying the interaction of topological defects with curved space [1], defect dynamics
-                    [2], and the packing of 'superballs' [3].</p>
-                <!--               REFERENCE 3???-->
-                <!---->
-                <div class="refs">
-                    <a target="_blank" href=http://www.nature.com/nature/journal/v468/n7326/full/nature09620.html>[1] W.T.M. Irvine et al., <i>Nature</i> <strong> 468 </strong>, 947-951 (2010).</a><br />
-                    <a target="_blank" href=http://www.nature.com/nmat/journal/v11/n11/full/nmat3429.html>[2] W.T.M. Irvine et al., <i> Nature Materials </i> <strong> 11</strong>, 948-951 (2012).</a><br />
-                    <a target="_blank" href=./papers/PNAS-2013-Irvine-15544-8.pdf>[3] W.T.M. Irvine et al., <i> PNAS </i> <strong> 110</strong>, 39  15544-15548 (2013).</a><br />
-                </div>
-            </div>
-            <div class="image_box"><img src="./images/research-thumb_colloids.jpg"></div>
-        </div>
-        <!---->
-        <div class="project_r" style="height: 300px;">
-            <div class="text_box">
-                <div class="title_r"> Chiral Phenomena </div>
-                <p>In collaboration with <a href="https://webhome.weizmann.ac.il/home/efrati/index.html" target="_blank">Efi Efrati</a>,
-                    we are studying phenomena that exhibit chiral behavior and developing conceptual
-                    frameworks for their quantification, leading to improved designs for chiral materials.
-                    See our recent manuscript [1] for more details.</p>
-                <div class="refs">
-                    <a target="_blank" href="./papers/EI12-resubmission.pdf"> [1] E. Efrati and W.T.M. Irvine, Physical Review X <b>4</b>, 011003 (2014).</a><br />
-                </div>
-            </div>
-            <div class="image_box"><img src="./images/research-thumb_chirality.png"></div>
-        </div>
-        <!--        -->
-        <div class="project_l" style="height: 300px;">
-            <div class="text_box">
-                <div class="title_l"> Shocks and Fracture</div>
-                <p>We are developing model systems to control and investigate
-                    the physics of material fracture and shock propagation.
-                    In one investigation, we found that conforming elastic sheets to curved substrates controls the behavior
-                    of cracks. By patterning the curvature of a rigid substrate, we can tune and design the paths of cracks
-                    in thin sheets. See our manuscript [1] for details.
-                </p>
-                <div class="refs">
-                    <a target="_blank" href='http://www.nature.com/nmat/journal/v16/n1/full/nmat4733.html'>[1] N.P. Mitchell et al., <i> Nature Materials </i> <b> 16</b>, 89-93 (2017).</a><br />
-                </div>
-            </div>
-            <div class="image_box" style="margin-bottom: 2%"><img src="./images/research-thumb_fracture.png"></div>
-        </div>
-        <!--    -->
+    <div class="line-with-year">
+      <span>
+        <h3 class="h4">Independent</h3>
+      </span>
+      <span class="year bold">December 2021–present</span>
     </div>
-<!--    <div id=icons style="margin-top: 2%">-->
-<!--        <a href="https://jfi.uchicago.edu/" target="_blank">-->
-<!--            <img src="./images/logo_black.png" width=100% />-->
-<!--        </a>-->
-<!--    </div>-->
-<!--    <div id=cc style="margin-top: 0%">-->
-<!--        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US" target="_blank"><img alt="Creative Commons License" style="border-width:0;" src="./images/cc.jpg" /></a>-->
-<!--    </div>-->
-<!--    <div id=links style="margin-top: 0.5%">-->
-<!--        <a href="./campus_only/index.htm" target="_blank">Lab Usefuls</a>-->
-<!--        <a href="http://irvinelab.uchicago.edu/groupwiki/" target="_blank">Group Wiki</a>-->
-<!--        <a href="http://mrsec.uchicago.edu/Comp_in_Sci/" target="_blank">Comp in Sci</a>-->
-<!--    </div>-->
-
-    <div id="bottom">
-        <div class="links" style="margin-left: 10px">
-            <a href="./campus_only/index.htm" target="_blank">Lab Usefuls</a>
-            <a href="http://irvinelab.uchicago.edu/groupwiki/" target="_blank">Group Wiki</a>
-            <a href="http://mrsec.uchicago.edu/Comp_in_Sci/" target="_blank">Comp in Sci</a>
-            <a href="https://jfi.uchicago.edu/" target="_blank">
-                <img src="./images/logo_black.png" style="width: 180px" />
-            </a>
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US" target="_blank">
-                <img alt="Creative Commons License" style="width: 100px" src="./images/cc.jpg" />
-            </a>
-
-            <!--    </div>-->
-            <!--    <div class="icons">-->
-
-        </div>
-        <!--    <div class="cc">-->
-        <!--    </div>-->
-
+    <div class="resume-sub-block section">
+      <span class="bold">Researcher and writer</span>
+      <div class="resume-description">
+      I founded and maintain the website <i>
+          <a href="https://web3isgoinggreat.com/">Web3 is Going Just Great</a>
+        </i>,
+      which highlights examples of how cryptocurrency and web3 projects are failing to live up to their promises. I also
+      write a <a href="https://newsletter.mollywhite.net/">popular newsletter</a> that covers topics pertaining to the
+      cryptocurrency industry. I have written essays outlining issues with crypto-utopianism and techno-solutionism, and
+      my expertise has been featured in publications including <i>The Wall Street Journal</i>,
+      <i>The New York Times</i>, <i>Financial Times</i>, and NPR. I've also advised various lawmakers, regulators, and
+      other governmental officials within and outside of the United States. Some of my work has included:
+      <ul>
+          <li>"<a href="https://www.youtube.com/watch?v=hXBZ-BXfCSY">Abuse on the blockchain</a>" guest lecture at
+          Stanford University, March 2022</li>
+          <li>"<a href="https://www.youtube.com/watch?v=G0k_GjxuJDM">Blockchain solutionism</a>" guest lecture at the
+          University of Texas at Austin, September 2022</li>
+          <li>"<a href="https://www.youtube.com/watch?v=AGsllEF7w_g">Is web3 bullshit?</a>" talk at Web Summit, November
+          2022
+        </li>
+          <li>"<a
+            href="https://www.theguardian.com/commentisfree/2022/nov/14/why-did-one-of-the-worlds-biggest-cryptocurrency-exchanges-just-collapse">Why
+            did one of the world's biggest cryptocurrency exchanges just collapse?</a>", published in
+          <i>The Guardian</i>, November 2022
+        </li>
+          <li>Testimony on "<a href="https://mollywhite.net/storage/pdfs/Bundestag-statement.pdf">Web 3.0 and the
+            Metaverse</a>" to the German Bundestag (<a
+            href="https://www.bundestag.de/resource/blob/926182/c5d7edf957872ea3b724ad0a7341e3c8/Stellungnahme-White-data.pdf">written
+            statement</a>), December 2022</li>
+          <li>"<a href="https://www.mollywhite.net/speaking/#popping-bubble">Popping the Web3 Bubble</a>" conversation at
+          South by Southwest, March 2023.</li>
+          <li>"<a
+            href="https://www.rollingstone.com/culture/culture-features/binance-coinbase-sec-investigation-crypto-1234768202/">The Feds Are Coming for Crypto. Can It Survive?</a>", published in
+          <i>Rolling Stone</i>, June 2023
+        </li>
+        </ul>
+      See my other <a href="/speaking">speaking</a>, <a href="https://blog.mollywhite.net/blockchain/">writing</a>, and
+      <a href="/press">press coverage</a>.
     </div>
+    </div>
+    <div class="line-with-year">
+      <h3 class="h4">HubSpot</h3>
+      <span class="year bold">2014–2022</span>
+    </div>
+    <div class="resume-sub-block">
+      <div class="line-with-year">
+        <span class="title">Tech lead</span>
+        <span class="year">November 2017–May 2022</span>
+      </div>
+      <div class="resume-description">
+      I spent more than four years as a tech lead for several teams working on HubSpot's developer platform and tooling.
+      I took an active development role while also building high-performing teams and collaborating with engineering
+      leadership, product management, and product design to lead team direction. Throughout, I mentored and worked
+      alongside engineers who were anywhere from intern to senior level, and mentored several people into senior
+      engineer and tech lead roles.
+    </div>
+      <div class="line-with-year">
+        <span class="title">Senior software engineer</span>
+        <span class="year">July 2017–November 2017</span>
+      </div>
+      <div class="line-with-year">
+        <span class="title">Software engineer</span>
+        <span class="year">May 2016–July 2017</span>
+      </div>
+      <div class="line-with-year">
+        <span class="title">Software engineering co-op</span>
+        <span class="year">May–September 2015, July–December 2014</span>
+      </div>
+    </div>
+  </div>
+  <div class="resume-block">
+    <h2>Recognition</h2>
+    <ul>
+      <li>
+        <i>Fast Company's</i> "<a href="https://www.fastcompany.com/90775278/the-new-rules-of-creativity-for-2022">2022
+        Most Creative</a>", August 2022
+    </li>
+      <li>
+        <i>Forbes'</i> "<a
+        href="https://www.forbes.com/pictures/6377d1f0378f803ad41a9f12/molly-white/?sh=5a6093ff6d9e">2023 30 Under
+        30</a>", November 2022
+    </li>
+      <li>Northeastern University's "<a href="https://www.khoury.northeastern.edu/40th/40-for-40-molly-white/">40 for
+        40</a>" Khoury College of Computer Sciences honoree, November 2022</li>
+      <li>
+        <i>CoinDesk's</i> "<a
+        href="https://www.coindesk.com/consensus-magazine/2022/12/05/molly-white-most-influential-2022/">Most
+        Influential
+        2022</a>", December 2022
+    </li>
+      <li>
+        <i>The Boston Globe's</i> "<a
+        href="https://bostontechleaders2023.bostonglobe.com/people/molly-white-web3-is-going-just-great/">2023 Tech
+        Power
+        Players</a>", May 2023.</li>
+    </ul>
+    <h4 class="h5">Selected <a href="/press">press</a>
+    </h4>
+    <ul>
+      <li>"<a
+        href="https://www.theinformation.com/articles/cryptos-csi-how-molly-white-became-an-absolute-nightmare-for-web3-evangelists">Crypto's
+        CSI: How Molly White Became an 'Absolute Nightmare' for Web3 Evangelists</a>", <i>The Information</i>, April
+      2022.</li>
+      <li>"<a href="https://wapo.st/3N4KkrB">First she documented the alt-right. Now she's coming for crypto.</a>",
+      <i>The Washington Post</i>, May 2022.
+    </li>
+      <li>"<a
+        href="https://www.theguardian.com/commentisfree/2022/jul/02/crypto-sceptic-molly-white-could-be-the-new-jk-galbraith-just-much-tougher">Crypto-sceptic
+        Molly White could be the new JK Galbraith... just much tougher</a>". <i>The Guardian</i>, July 2022.</li>
+      <li>"<a
+        href="https://www.bostonglobe.com/2022/07/11/business/meet-molly-white-mass-software-engineer-going-after-crypto-industry/">Meet
+        Molly White, the Mass. software engineer going after the crypto industry</a>", <i>The Boston Globe</i>, July
+      2022.</li>
+      <li>"<a
+        href="https://www.fastcompany.com/90762802/molly-white-web3-going-just-great-most-creative-people-2022">Molly
+        White
+        tried to tell you Web3 was not going great before the crypto crash</a>", <i>FastCompany</i>, August 2022.
+    </li>
+      <li>"<a href="https://www.cjr.org/the_media_today/cjr_editors_watching_2023.php">What we're watching in 2023</a>",
+      <i>Columbia Journalism Review</i>, January 2023.
+    </li>
+      <li>"<a href="https://www.wired.co.uk/article/molly-white-crypto-scams">Molly White Tracks Crypto Scams. It's Going
+        Just Great</a>", <i>Wired UK</i>, May 2023.</li>
+    </ul>
+  </div>
+  <div class="resume-block">
+    <h2>Education</h2>
+    <div>
+      <div class="line-with-year">
+        <span>
+          <strong>Northeastern University</strong> —&nbsp;Bachelor's Degree in Computer Science</span>
+        <span class="year bold">2011–2016</span>
+      </div>
+    </div>
+  </div>
 
-</div>
-</body>
+    </main>
+  </div>
+
+  </body>
+  <script src="/assets/js/main.js"></script>
+  
+  <script src="https://www.mollywhite.net/assets/js/nav.js"></script>
+
+
 </html>
