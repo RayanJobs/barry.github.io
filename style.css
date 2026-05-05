@@ -85,3 +85,7 @@ a.button:hover {
   background: #111;
   color: white;
 }
+.item {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
