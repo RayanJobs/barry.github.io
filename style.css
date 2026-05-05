@@ -1,32 +1,87 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  line-height: 1.4;
+  background: #ffffff;
+  color: #111;
 }
 
+/* NAV */
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 14px 28px;
   background: #111;
   color: white;
 }
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-  background: white;
-}
+
 nav a {
   color: white;
-  margin-left: 15px;
+  margin-left: 16px;
   text-decoration: none;
+  font-size: 14px;
 }
 
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: white;
+}
+
+.hero h1 {
+  margin-bottom: 6px;
+}
+
+.hero p {
+  margin-top: 0;
+  color: #444;
+}
+
+/* SECTIONS */
 section {
-  max-width: 800px;
+  max-width: 780px;
   margin: 0 auto;
-  padding: 35px 20px;
+  padding: 28px 20px;
 }
 
-.project {
-  margin-bottom: 20px;
+/* HEADINGS */
+h2 {
+  margin: 18px 0 10px;
+  font-size: 18px;
+}
+
+/* EXPERIENCE ITEMS */
+.item {
+  margin-bottom: 12px;
+}
+
+.item h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.item span {
+  font-size: 13px;
+  color: #666;
+}
+
+.item p, .item ul {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+a.button, .buttons a {
+  display: inline-block;
+  padding: 8px 14px;
+  margin-top: 10px;
+  border: 1px solid #111;
+  text-decoration: none;
+  color: #111;
+}
+
+a.button:hover {
+  background: #111;
+  color: white;
 }
